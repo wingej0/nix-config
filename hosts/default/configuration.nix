@@ -180,6 +180,7 @@
 
     # Games
     gnome-2048
+    scid-vs-pc
 
     # Gnome extensions
     gnome.gnome-tweaks
@@ -203,11 +204,6 @@
   # Change shell to zsh
   programs.zsh.enable = true;
   users.defaultUserShell = pkgs.zsh;
-
-  # Fonts
-  fonts.packages = with pkgs; [
-    fira-code-nerdfont
-  ];
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
