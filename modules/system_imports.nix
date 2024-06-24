@@ -1,6 +1,6 @@
 { config, pkgs, ... }:
 {
   imports = [
-    .nixos/distrobox.nix
+    ./nixos/distrobox.nix
   ];
 }

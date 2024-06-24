@@ -9,7 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
-      ./modules/distrobox.nix
+      ./../../modules/system_imports.nix
     ];
 
   # Bootloader.
