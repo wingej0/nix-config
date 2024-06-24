@@ -125,6 +125,7 @@
     wget
     vim
     htop
+    acpi
     pika-backup
     fastfetch
     wallust
@@ -164,6 +165,17 @@
     caprine-bin
     discord
     zoom
+
+    # Python Environment
+    (python312.withPackages (ps: with ps; [
+      requests
+      pip
+      numpy
+      pandas
+      jupyterlab
+      pymongo
+      matplotlib
+    ]))
 
     # Games
     gnome-2048
