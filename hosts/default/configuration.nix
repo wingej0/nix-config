@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.default
+      ./modules/distrobox.nix
     ];
 
   # Bootloader.
@@ -133,7 +134,6 @@
     gnome.gnome-boxes
     gnome.gnome-calculator
     veracrypt
-    distrobox
     bibata-cursors
 
     # Browsers
@@ -158,6 +158,7 @@
     obsidian
     onlyoffice-bin
     planify
+    evince
     
     # Communication
     mailspring
